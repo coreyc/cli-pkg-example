@@ -1,0 +1,27 @@
+{
+  "name": "cli-pkg-example",
+  "version": "1.0.0",
+  "description": "Demonstrates setting up a package as a CLI tool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "my-awesome-tool": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreyc/cli-pkg-example.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Corey Cleary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coreyc/cli-pkg-example/issues"
+  },
+  "homepage": "https://github.com/coreyc/cli-pkg-example#readme",
+  "dependencies": {
+    "commander": "^4.1.1"
+  }
+}
